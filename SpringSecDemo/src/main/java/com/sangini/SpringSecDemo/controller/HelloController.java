@@ -9,11 +9,11 @@ public class HelloController {
 
     @GetMapping("hello")
     public String greet(HttpServletRequest request) {
-        return "Hello World!" + request.getSession().getId();
+        return "Hello World "+request.getSession().getId();
     }
 
     @GetMapping("about")
-    public String about(HttpServletRequest request){
-        return "Sangini"  + request.getSession().getId();
+    public String about(HttpServletRequest request) {
+        return "Telusko "+request.getSession().getId();
     }
 }

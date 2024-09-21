@@ -1,6 +1,5 @@
-package com.sangini.SpringSecDemo;
+package com.sangini.SpringSecDemo.model;
 
-import jdk.jfr.DataAmount;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
